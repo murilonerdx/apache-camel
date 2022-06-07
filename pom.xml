@@ -81,11 +81,11 @@
 		<version>2.4</version>
 	</dependency>  
   
- 	<dependency>
- 		<groupId>org.apache.camel</groupId>
- 		<artifactId>camel-sql</artifactId>
- 		<version>${camel-version}</version>
- 	</dependency>
+<!-- 	<dependency> -->
+<!-- 		<groupId>org.apache.camel</groupId> -->
+<!-- 		<artifactId>camel-sql</artifactId> -->
+<!-- 		<version>${camel-version}</version> -->
+<!-- 	</dependency> -->
 	
 	
 <!-- 	<dependency> -->
