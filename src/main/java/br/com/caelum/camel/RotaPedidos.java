@@ -15,6 +15,8 @@ public class RotaPedidos {
             @Override
             public void configure () throws Exception {
                 from("file:pedidos?delay=5s&noop=true")
+                        .to("subrota:http")
+                        .to("subrota:soap")
                         .setProperty("pedidoId", xpath("/pedido/id/text()"))
                         .setProperty("clientId", xpath("/pedido/pagamento/email-titular/text()"))
 
